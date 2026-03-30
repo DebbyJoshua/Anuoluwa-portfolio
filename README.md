@@ -17,4 +17,4 @@ This is my first portfolio project where I practiced:
 - Layout design
 
 ## 📬 Contact
-You can reach me via email: debbyjoshua@email.com# Anuoluwa-portfolio
+You can reach me via email: debbyjoshua7@email.com# Anuoluwa-portfolio
