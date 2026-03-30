@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+    <style>
+        body {
+            background-color: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+            p {
+        font-size: 18px;
+        max-width: 500px;   
+        margin: 10px auto;
+        line-height: 1.6;   /* better spacing between lines */
+}  
+
+        h1 {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+}
+
+        .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left; /* change from center to left */
+}
+
+        button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover;   
+    display: block;
+    margin: 10px auto;   
+}
+
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+}
+
+a:hover {
+    color: purple
+}
+.link {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+    text-align: center;
+}
+p, ul {
+    margin-bottom: 20px;
+}
+section {
+    margin: 30px  0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  #ddd;
+
+}
+button, .btn {
+    display: inline-block;       /* keeps it like a button */
+    padding: 10px 20px;          
+    background-color: #ff4b5c;   
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;          
+    line-height: normal;         
+    vertical-align: middle;      
+    transition: 0.3s;
+     .btn:hover
+    background-color: #e04352;
+    cursor: pointer;
+    min-width: 150px;
+    margin: 20px auto;
+}
+.contact-section {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color:  #e04352;
+}
+.row section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;  /* centers content inside each section */
+}
+
+.row section h2 {
+    margin-bottom: 15px;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box h2 {
+    margin-bottom: 15px;
+}
+
+.box ul {
+    padding: 0;
+    list-style-position: inside;
+}
+.container {
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+    <h1>Debby Joshua</h1>
+
+    <p>I'm Debby, a future web developer.</p>
+    <p>I'm working hard to change my life through tech</p>
+
+    <img src="images/profile.JPG" alt="My Photo">
+
+    <br><br>
+
+    <a href="https://google.com" class="link">Visit Google</a>
+
+    <br><br>
+
+    <section>
+    <h2>About Me</h2>
+    <p>I am Debby, a future web developer.</p>
+</section>
+
+<div class="row">
+
+    <section class="box">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+
+    <section class="box">
+        <h2>Projects</h2>
+        <p>Coming soon... I am currently working on my first web projects.</p>
+    </section>
+
+</div>
+
+    <a href="mailto:debbyjoshua7@email.com" class="btn">Contact Me</a>
+
+    </div>
+</body>
+</html>
